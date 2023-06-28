@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box-Sizing</title>
+</head>
+<style>
+    div{
+       width:160px;
+       height:80px;
+       padding:20px;
+       border:8px solid red;
+       background-color: yellow;
+    }
+    .border-boxing{
+        box-sizing: border-box;
+    }
+    .content-boxing{
+        box-sizing: content-box;
+        
+
+    }
+</style>
+<body>
+    <div class="border-boxing">
+        <!-- The entire box includes the margin and boreder sizes -->
+        <!-- And changes the content size as per the requirement -->
+        heloo
+    </div>
+    <div class="content-boxing">
+        <!-- The content size and other properties like margin and borders will have different sizes. -->
+        <!-- Also sometimes few contents in the tag may get leak. -->
+        <!-- ariatur ipsum unde quae rerum eum aliquam consequuntur. -->
+        hiiiiiiiiiiiiiii
+    </div>
+    
+</body>
+</html>

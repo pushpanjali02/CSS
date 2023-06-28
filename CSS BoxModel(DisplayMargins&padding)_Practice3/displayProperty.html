@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Display Properties in html</title>
+</head>
+<style>
+    .inline{
+    
+        display: inline;
+        background-color: lightseagreen;
+        color:navy;
+        margin-top:10px;
+        width:1000px;
+        height:20000px;
+    }
+    .inline2{
+        display: inline;
+        background-color:navajowhite;
+        color:darkslategrey;
+        margin-top:10px;
+        width:1000px;
+        height:20000px;
+    }
+    .block{
+        display:block;
+        background-color: black;
+        color: white;
+        width:1000px;
+        height: 120px;
+        padding:20px;
+        border:10px solid white;
+        border-style: dashed;
+    }
+    .inline-block1{
+        display: inline-block;
+        background-color:pink;
+        color:black;
+        margin-right: 200px;
+    }
+    .inline-block2{
+        display: inline-block;
+        background-color: red;
+        color:indigo;
+        margin-right:20px;
+    }
+</style>
+<body>
+    <div class="inline">
+        BY DEFAULT SPAN IS A INLINE ELEMENT
+        Using inline display property
+        inline property only uses the required width of the web page and does not alow to use any padding or margin top and bottom sizes
+        inline property allows to keep elements side by side instead of one after another
+        
+       
+    </div>
+    <div class="inline2">
+        Using inline display property
+        inline property only uses the required width of the web page and does not alow to use any padding or margin top and bottom sizes
+        inline property allows to keep elements side by side instead of one after another
+    </div>
+    <div class="block">
+        <p>BY DEFAULT DIV IS BLOCK ELEMENT</p>
+        <ul>
+            Using block display property
+            When block property is used the element consumes entire width of the webpage
+        </ul>
+        
+    </div>
+    <div class="block">
+        <ul>
+            Using block display property
+            When block property is used the element consumes entire width of the webpage
+        </ul>
+        
+    </div>
+    
+    <div class="inline-block1">
+        <ul>
+            Using inline-block property
+            inline-block property we can have elements side by side along with width property
+    </div>
+    <div class="inline-block2">
+        <ul>
+            Using inline-block property
+            inline-block property we can have elements side by side along with width property
+    </div>
+</body>
+</html>

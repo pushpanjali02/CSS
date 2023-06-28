@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Margins and Padding</title>
+</head>
+<style>
+    .marpad{
+        margin:20px 30px 40px 50px ; /*top right bottom left*/ 
+        border-color: pink;
+        padding:2px 3px 2px 3px ;/*top right bottom left*/
+        border-style:ridge;
+        border-width: 20px;
+    
+    }
+    .border{
+        margin:10px 10px 10px 10px;
+        padding:20px 20px 20px 20px;
+        border-width: 30px;
+        border-style:dashed dotted groove ridge;/*top right bottom left*/
+        border-color: cornflowerblue;
+    }
+    .border2{
+        margin:10px 10px 10px 10px;
+        padding:20px 20px 20px 20px;
+        border-width: 20px;
+        border-style:dashed dotted ridge;/*top right+left bottom */
+        border-color:brown pink black blue;
+
+    }
+    .border-radius{
+        margin:2px 12px 22px 32px;
+        padding:3px 13px 23px 33px;
+        border-radius:50px;
+        border-width: 30px;
+        border-style: double;
+        border-color: violet;
+    }
+</style>
+<body>
+    <div class="marpad">
+        <h1>Using shorthand margin and background properties</h1>
+    </div>
+    <div class="border">
+        <!-- boder has 3 properties like bordder width,color and style; -->
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magni, dolore!</p>
+    </div>
+    <div class="border2">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti, accusamus.</p>
+    </div>
+    <div class="border-radius">
+        <p>Border radius is used to make edges of the border round</p>
+    </div>
+    
+</body>
+</html>
