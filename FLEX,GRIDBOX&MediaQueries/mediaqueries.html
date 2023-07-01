@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .mediaqueries{
+            background-color: pink;
+            color:black;
+            border: 2px solid green ;
+            border-radius: 2px;
+            width:500px;
+            height:500px;
+        }
+        @media  screen and (max-width:600px) {
+           .mediaqueries{
+            background-color: orange;
+            color:cornflowerblue;
+            border:3px dashed green;
+            border-radius: 3px;
+           }
+            
+        }
+        #para{
+            background-color: maroon;
+            color: bisque;
+            font-size: 30px;
+            border:2px solid black;
+            border-radius: 2px;
+            height:100px;
+            width:3000px;
+        }
+    </style>
+</head>
+<body>
+    <h1 style="background-color: black; color: white; font-family: cursive;">MEDIA QUERIES</h1>
+    <div class="mediaqueries"><p>Media queries are used to provide features like when a certain action is made in the viewing device like when the width or height of the viewing device changes then the background color or color of the content has to change into another like that</p></div>
+    <p id="para">In this scenario when max-width is set less than 600px then the background color changes to orange other it remains pink in colour</p>
+
+</body>
+</html>

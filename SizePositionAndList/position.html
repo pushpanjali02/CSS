@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .static{
+        background-color: indianred;
+        top:5px;
+        left:50px;
+        height:200px;
+        width:50vw;
+    }
+    .relative{
+        background-color: lawngreen;
+        height:20vh;
+        width:50vw;
+        position: relative;
+    }
+    .para{
+        position:relative;
+        height: 15vh;
+        width:15vw;
+        top:10px;
+        left:50px;
+        background-color: indigo;
+
+    }
+</style>
+<body>
+    <h2>In order to change the position of the html elements we make use of the position property</h2>
+    <pre style="font-weight: bold; width:100%;background-color:pink; font-size: 25px;">By default the position of the element will be static i.e., left right bottom top properties will not work for them</pre>
+    <div class="static">
+        <p>There won't be any effect of positioning properties like top, bottom,left, right on static elements</p>
+    </div>
+    <div class="relative">
+        <p class="para">
+           This is the inner box.
+        </p>
+    </div>
+    <div class="other">
+        <p>similarly we have absolute and z-position also </p>
+    </div>
+</body>
+</html>
